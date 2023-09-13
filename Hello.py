@@ -14,7 +14,9 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
- 
+import joblib
+import numpy as np
+
 # Charger le modèle hybride
 hybrid_model = joblib.load("svdpp_model.pkl")
 
